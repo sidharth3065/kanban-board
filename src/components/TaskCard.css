@@ -1,0 +1,124 @@
+/* .task_card {
+  width: 100%;
+  min-height: 100px;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  cursor: grab;
+}
+
+.task_card:active {
+  opacity: 0.7;
+  border: 1px solid #111;
+}
+
+.task_text {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.task_card_bottom_line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task_delete {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.task_delete:hover {
+  background-color: #ebebeb;
+}
+
+.delete_icon {
+  width: 20px;
+  opacity: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+.task_delete:hover .delete_icon {
+  opacity: 80%;
+} */
+
+.task_card {
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 12px;
+  cursor: grab;
+  transition: all 0.3s ease;
+}
+
+.task_card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task_card:active {
+  opacity: 0.7;
+}
+
+.task_text {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #34495e;
+}
+
+.task_description {
+  font-size: 14px;
+  color: #7f8c8d;
+  margin-bottom: 8px;
+}
+
+.task_due_date {
+  font-size: 12px;
+  color: #95a5a6;
+  margin-bottom: 8px;
+}
+
+.task_priority {
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #3498db;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.task_card_bottom_line {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.task_delete {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #e74c3c;
+  color: #ffffff;
+}
+
+.task_delete:hover {
+  background-color: #c0392b;
+}
